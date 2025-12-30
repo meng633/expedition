@@ -7,7 +7,12 @@ import React from "react";
 
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
-    {
+	  {
+		  name:"localhost",
+		  network"mainnet",
+		  rpc: ["https://localhost:8545],
+	  },
+	  {
       name: "Ethereum Classic",
       network: "mainnet",
       rpc: ["https://www.ethercluster.com/etc"],

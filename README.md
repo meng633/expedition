@@ -49,8 +49,8 @@ Explorer Features:
 <!-- getting started with the project -->
 ## Getting Started
 ### Prerequisites
-- node `v10.15.3` or later
-- npm `v6.4.1` or later
+- node `v16.9.1` 
+- npm `v7.21.1` 
 
 ### Installation
 Clone/ download the project, and install dependencies.
@@ -59,6 +59,14 @@ git clone https://github.com/xops/expedition.git && cd expedition && npm install
 ```
 
 <!-- example usage, screen shots, demos -->
+配置：expedition/src/hooks/useChainList.ts
+    {
+		  name:"localhost",
+		  network"mainnet",
+		  rpc: ["https://localhost:8545],
+    },
+影响范围：前端应用的区块链网络选择以及本地私有链rpc地址
+
 ## Usage
 
 ### Start the explorer
